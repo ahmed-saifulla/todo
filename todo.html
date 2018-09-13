@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo Webapp</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<!-- <header>
+		header
+	</header> -->
+
+	<section class="content_sec">
+
+
+		<!-- <div class="list_item">
+			gh
+		</div>
+		<div class="list_item">
+			gh
+		</div> -->
+
+		<h1>Todo List</h1>
+
+		<div class="inputs">
+
+
+			<div>
+    	<button class="btn btn-toggle" onclick="handlers.toggleAll()">Toggle All</button>
+    	<input id="addTodoTextInput" type="" name="" placeholder="Yea.. note it down!">
+		<button class="btn btn-add" onclick="handlers.addTodo()">Add</button>
+    </div>
+    
+    <div>
+    	<br>
+      <input id="changeTodoPositionInput"  type="number">
+      <input id="changeTodoTextInput" type="text">
+      <button onclick="handlers.changeTodo()" class="btn btn-change">Change</button>
+    </div>
+    
+    
+    <div>
+    	<br>
+        <input id="toggleCompletedPositionInput" type="number">
+        <button onclick="handlers.toggleCompleted()" class="btn btn-completed">Completed</button>
+
+      <input id="deleteTodoPositionInput" type="number">
+      <button onclick="handlers.deleteTodo()" class="btn btn-delete">Delete</button>
+    </div>
+
+    <div>
+    	<br>
+      
+    </div>
+    
+    
+		</div>
+
+		<div class="view">
+			<h3>My List</h3>
+			<br>
+			<ul>
+    		</ul>
+    <script src="./client.js"></script>
+		</div>
+
+    
+
+	</section>
+
+	<footer>
+		
+	</footer>
+
+</body>
+</html>
